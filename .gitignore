@@ -1,0 +1,44 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.vscode/
+.idea/
+
+# Environment and secrets (CRITICAL: Never commit credentials)
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+command.md
+apikeys.py
+*.pem
+*.key
+*.cert
+
+# Local control-panel runtime files and user configs
+user_config.json
+.bot_run.log
+.bot_run.pid
+
+# Resumes and generated outputs
+all excels/
+all resumes/
+*.pdf
+
+# Logs and runtime artifacts
+logs/
+*.log
+old/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Browser profiles and cookies
+chrome_profile/
+chrome_data/
+cookies/
